@@ -5,7 +5,7 @@
       "phone": "33123456789",
       "name": "soli",
       "status": "Disponible",
-      "avatar": "https://ui-avatars.com/api/?name=Jean+Dupont&background=25d366&color=fff",
+      "avatar": "https://ui-avatars.com/api/?name=Soli&background=25d366&color=fff",
       "isOnline": true,
       "lastSeen": 1704387600000,
       "createdAt": 1704387600000
@@ -13,41 +13,59 @@
     {
       "id": "user2",
       "phone": "33987654321",
-      "name": "Marietou sy",
+      "name": "Marietou Sy",
       "status": "Occupée",
-      "avatar": "https://ui-avatars.com/api/?name=Marie+Martin&background=25d366&color=fff",
+      "avatar": "https://ui-avatars.com/api/?name=Marietou+Sy&background=25d366&color=fff",
       "isOnline": false,
       "lastSeen": 1704387300000,
       "createdAt": 1704387300000
-    },
+    }
+  ],
+  "contacts": [
     {
       "id": "b1e4",
-      "name": "Maina ",
-      "phone": "+221 775312571"
+      "name": "Maina",
+      "phone": "+221 775312571",
+      "avatar": "https://ui-avatars.com/api/?name=Maina&background=25d366&color=fff",
+      "status": "Disponible"
     },
     {
       "id": "dded",
       "name": "Anna",
-      "phone": "+221771832623"
+      "phone": "+221771832623",
+      "avatar": "https://ui-avatars.com/api/?name=Anna&background=25d366&color=fff",
+      "status": "En ligne"
     },
     {
       "id": "985a",
-      "name": "fghj",
-      "phone": "3456"
+      "name": "Fghj",
+      "phone": "3456",
+      "avatar": "https://ui-avatars.com/api/?name=Fghj&background=25d366&color=fff",
+      "status": "Absent"
     },
     {
       "id": "10b9",
-      "name": "loulou",
-      "phone": "1234"
+      "name": "Loulou",
+      "phone": "1234",
+      "avatar": "https://ui-avatars.com/api/?name=Loulou&background=25d366&color=fff",
+      "status": "Disponible"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group1",
+      "name": "Développeurs JS",
+      "avatar": "https://ui-avatars.com/api/?name=Dev+JS&background=25d366&color=fff",
+      "members": ["user1", "user2", "b1e4", "dded"],
+      "createdAt": 1704387600000,
+      "lastMessage": "Bienvenue dans le groupe !",
+      "lastMessageTime": 1704387600000
     }
   ],
   "chats": [
     {
       "id": "user1_user2",
-      "participants": [
-        "user1",
-        "user2"
-      ],
+      "participants": ["user1", "user2"],
       "createdAt": 1704387600000,
       "lastMessage": "Salut ! Comment ça va ?",
       "lastMessageTime": 1704387600000
@@ -70,52 +88,41 @@
       "receiverId": "user1",
       "content": "Salut ! Ça va bien et toi ?",
       "timestamp": 1704387660000,
-      "status": "sent"
+      "status": "received"
     },
     {
-      "id": "bd23",
-      "chatId": "chat_user1",
-      "senderId": "currentUser",
-      "receiverId": "user1",
-      "content": "jkl",
-      "timestamp": 1749574844180,
-      "status": "sent"
-    },
-    {
-      "id": "cad4",
-      "chatId": "chat_dded",
-      "senderId": "currentUser",
-      "receiverId": "dded",
-      "content": "hjkl",
-      "timestamp": 1749624868315,
-      "status": "sent"
-    },
-    {
-      "id": "2ff7",
-      "chatId": "chat_dded",
-      "senderId": "currentUser",
-      "receiverId": "dded",
-      "content": "j",
-      "timestamp": 1749625544573,
-      "status": "sent"
-    },
-    {
-      "id": "0c67",
-      "chatId": "chat_dded",
-      "senderId": "currentUser",
-      "receiverId": "dded",
-      "content": "uii",
-      "timestamp": 1749625550822,
-      "status": "sent"
-    },
-    {
-      "id": "4d3c",
-      "chatId": "chat_user2",
-      "senderId": "currentUser",
+      "id": "msg3",
+      "chatId": "user1_user2",
+      "senderId": "user1",
       "receiverId": "user2",
-      "content": "ujij",
-      "timestamp": 1749625560767,
+      "content": "Je travaille sur un projet JS.",
+      "timestamp": 1704387700000,
       "status": "sent"
+    },
+    {
+      "id": "msg4",
+      "chatId": "user1_user2",
+      "senderId": "user2",
+      "receiverId": "user1",
+      "content": "Super ! Tu utilises quel framework ?",
+      "timestamp": 1704387750000,
+      "status": "received"
+    },
+    {
+      "id": "msg5",
+      "chatId": "group1",
+      "senderId": "b1e4",
+      "content": "Bienvenue dans le groupe !",
+      "timestamp": 1704387800000,
+      "status": "sent"
+    },
+    {
+      "id": "msg6",
+      "chatId": "group1",
+      "senderId": "dded",
+      "content": "Merci ! Heureux d'être ici.",
+      "timestamp": 1704387850000,
+      "status": "received"
     }
   ]
 }
