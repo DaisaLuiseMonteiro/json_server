@@ -54,11 +54,20 @@
   "groups": [
     {
       "id": "group1",
-      "name": "Développeurs JS",
+      "name": "groupe de travail",
       "avatar": "https://ui-avatars.com/api/?name=Dev+JS&background=25d366&color=fff",
-      "members": ["user1", "user2", "b1e4", "dded"],
+      "members": ["user1", "user2", "coura", "anna"],
       "createdAt": 1704387600000,
       "lastMessage": "Bienvenue dans le groupe !",
+      "lastMessageTime": 1704387600000
+    }
+        {
+      "id": "group2",
+      "name": "divertissement",
+      "avatar": "https://ui-avatars.com/api/?name=Dev+JS&background=25d366&color=fff",
+      "members": ["user1", "user2", "lulu", "coura"],
+      "createdAt": 1704387600000,
+      "lastMessage": "envoyez donc vos photos de la fete  ",
       "lastMessageTime": 1704387600000
     }
   ],
