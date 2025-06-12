@@ -54,22 +54,23 @@
   "groups": [
     {
       "id": "group1",
-      "name": "groupe de travail",
+      "name": "Développeurs JS",
       "avatar": "https://ui-avatars.com/api/?name=Dev+JS&background=25d366&color=fff",
-      "members": ["user1", "user2", "coura", "anna"],
+      "members": ["user1", "user2", "b1e4", "dded"],
       "createdAt": 1704387600000,
       "lastMessage": "Bienvenue dans le groupe !",
       "lastMessageTime": 1704387600000
-    }
+    },
         {
       "id": "group2",
       "name": "divertissement",
       "avatar": "https://ui-avatars.com/api/?name=Dev+JS&background=25d366&color=fff",
-      "members": ["user1", "user2", "lulu", "coura"],
+      "members": ["user1", "user2", "coura", "soli"],
       "createdAt": 1704387600000,
-      "lastMessage": "envoyez donc vos photos de la fete  ",
+      "lastMessage": "Envoyez donc vos photos de la fête",
       "lastMessageTime": 1704387600000
     }
+    
   ],
   "chats": [
     {
@@ -86,7 +87,7 @@
       "chatId": "user1_user2",
       "senderId": "user1",
       "receiverId": "user2",
-      "content": "Salut ! Comment ça va ?",
+      "content": "Salut ",
       "timestamp": 1704387600000,
       "status": "sent"
     },
@@ -113,7 +114,7 @@
       "chatId": "user1_user2",
       "senderId": "user2",
       "receiverId": "user1",
-      "content": "Super ! Tu utilises quel framework ?",
+      "content": "Tu utilises quel framework ?",
       "timestamp": 1704387750000,
       "status": "received"
     },
