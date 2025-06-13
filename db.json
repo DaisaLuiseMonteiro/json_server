@@ -49,6 +49,27 @@
       "phone": "1234",
       "avatar": "https://ui-avatars.com/api/?name=Loulou&background=25d366&color=fff",
       "status": "Disponible"
+    },
+    {
+      "id": "coura1",
+      "name": "Coura",
+      "phone": "+221 778899001",
+      "avatar": "https://ui-avatars.com/api/?name=Coura&background=25d366&color=fff",
+      "status": "Disponible"
+    },
+    {
+      "id": "ali2",
+      "name": "Ali",
+      "phone": "+221 770011223",
+      "avatar": "https://ui-avatars.com/api/?name=Ali&background=25d366&color=fff",
+      "status": "Occupé"
+    },
+    {
+      "id": "moussa3",
+      "name": "Moussa",
+      "phone": "+221 765432198",
+      "avatar": "https://ui-avatars.com/api/?name=Moussa&background=25d366&color=fff",
+      "status": "Absent"
     }
   ],
   "groups": [
@@ -61,16 +82,15 @@
       "lastMessage": "Bienvenue dans le groupe !",
       "lastMessageTime": 1704387600000
     },
-        {
+    {
       "id": "group2",
-      "name": "divertissement",
-      "avatar": "https://ui-avatars.com/api/?name=Dev+JS&background=25d366&color=fff",
-      "members": ["user1", "user2", "coura", "soli"],
+      "name": "Divertissement",
+      "avatar": "https://ui-avatars.com/api/?name=Divertissement&background=25d366&color=fff",
+      "members": ["user1", "user2", "coura1", "soli"],
       "createdAt": 1704387600000,
       "lastMessage": "Envoyez donc vos photos de la fête",
       "lastMessageTime": 1704387600000
     }
-    
   ],
   "chats": [
     {
@@ -87,7 +107,7 @@
       "chatId": "user1_user2",
       "senderId": "user1",
       "receiverId": "user2",
-      "content": "Salut ",
+      "content": "Salut",
       "timestamp": 1704387600000,
       "status": "sent"
     },
@@ -132,6 +152,30 @@
       "senderId": "dded",
       "content": "Merci ! Heureux d'être ici.",
       "timestamp": 1704387850000,
+      "status": "received"
+    },
+    {
+      "id": "msg7",
+      "chatId": "group2",
+      "senderId": "coura1",
+      "content": "Qui a les photos de la fête ?",
+      "timestamp": 1704387900000,
+      "status": "sent"
+    },
+    {
+      "id": "msg8",
+      "chatId": "group2",
+      "senderId": "user1",
+      "content": "Je vais les envoyer maintenant.",
+      "timestamp": 1704387950000,
+      "status": "sent"
+    },
+    {
+      "id": "msg9",
+      "chatId": "group2",
+      "senderId": "user2",
+      "content": "Super ! J'attends.",
+      "timestamp": 1704388000000,
       "status": "received"
     }
   ]
