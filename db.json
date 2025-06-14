@@ -1,73 +1,51 @@
 {
-  "users": [
-    {
-      "id": "user1",
-      "phone": "33123456789",
-      "name": "soli",
-      "status": "Disponible",
-      "avatar": "https://ui-avatars.com/api/?name=Soli&background=25d366&color=fff",
-      "isOnline": true,
-      "lastSeen": 1704387600000,
-      "createdAt": 1704387600000
-    },
-    {
-      "id": "user2",
-      "phone": "33987654321",
-      "name": "Marietou Sy",
-      "status": "Occupée",
-      "avatar": "https://ui-avatars.com/api/?name=Marietou+Sy&background=25d366&color=fff",
-      "isOnline": false,
-      "lastSeen": 1704387300000,
-      "createdAt": 1704387300000
-    }
-  ],
   "contacts": [
     {
-      "id": "b1e4",
+      "id": "contact1",
       "name": "Maina",
-      "phone": "+221 775312571",
+      "phone": "+221771234567",
       "avatar": "https://ui-avatars.com/api/?name=Maina&background=25d366&color=fff",
       "status": "Disponible"
     },
     {
-      "id": "dded",
+      "id": "contact2",
       "name": "Anna",
-      "phone": "+221771832623",
+      "phone": "+221779876543",
       "avatar": "https://ui-avatars.com/api/?name=Anna&background=25d366&color=fff",
       "status": "En ligne"
     },
     {
-      "id": "985a",
+      "id": "contact3",
       "name": "Fghj",
-      "phone": "3456",
+      "phone": "+221774567890",
       "avatar": "https://ui-avatars.com/api/?name=Fghj&background=25d366&color=fff",
       "status": "Absent"
     },
     {
-      "id": "10b9",
+      "id": "contact4",
       "name": "Loulou",
-      "phone": "1234",
+      "phone": "+221773216549",
       "avatar": "https://ui-avatars.com/api/?name=Loulou&background=25d366&color=fff",
       "status": "Disponible"
     },
     {
-      "id": "coura1",
+      "id": "contact5",
       "name": "Coura",
-      "phone": "+221 778899001",
+      "phone": "+221778899001",
       "avatar": "https://ui-avatars.com/api/?name=Coura&background=25d366&color=fff",
       "status": "Disponible"
     },
     {
-      "id": "ali2",
+      "id": "contact6",
       "name": "Ali",
-      "phone": "+221 770011223",
+      "phone": "+221770011223",
       "avatar": "https://ui-avatars.com/api/?name=Ali&background=25d366&color=fff",
       "status": "Occupé"
     },
     {
-      "id": "moussa3",
+      "id": "contact7",
       "name": "Moussa",
-      "phone": "+221 765432198",
+      "phone": "+221765432198",
       "avatar": "https://ui-avatars.com/api/?name=Moussa&background=25d366&color=fff",
       "status": "Absent"
     }
@@ -77,7 +55,7 @@
       "id": "group1",
       "name": "Développeurs JS",
       "avatar": "https://ui-avatars.com/api/?name=Dev+JS&background=25d366&color=fff",
-      "members": ["user1", "user2", "b1e4", "dded"],
+      "members": ["+221771234567", "+221779876543", "+221774567890"],
       "createdAt": 1704387600000,
       "lastMessage": "Bienvenue dans le groupe !",
       "lastMessageTime": 1704387600000
@@ -86,97 +64,109 @@
       "id": "group2",
       "name": "Divertissement",
       "avatar": "https://ui-avatars.com/api/?name=Divertissement&background=25d366&color=fff",
-      "members": ["user1", "user2", "coura1", "soli"],
+      "members": ["+221771234567", "+221779876543", "+221778899001"],
       "createdAt": 1704387600000,
       "lastMessage": "Envoyez donc vos photos de la fête",
       "lastMessageTime": 1704387600000
-    }
-  ],
-  "chats": [
+    },
     {
-      "id": "user1_user2",
-      "participants": ["user1", "user2"],
+      "id": "group3",
+      "name": "Voyage",
+      "avatar": "https://ui-avatars.com/api/?name=Voyage&background=25d366&color=fff",
+      "members": ["+221773216549", "+221770011223", "+221765432198"],
       "createdAt": 1704387600000,
-      "lastMessage": "Salut ! Comment ça va ?",
+      "lastMessage": "Préparons notre prochain voyage !",
       "lastMessageTime": 1704387600000
     }
   ],
   "messages": [
     {
       "id": "msg1",
-      "chatId": "user1_user2",
-      "senderId": "user1",
-      "receiverId": "user2",
-      "content": "Salut",
+      "contactId": "+221771234567",
+      "content": "Salut, comment ça va ?",
       "timestamp": 1704387600000,
       "status": "sent"
     },
     {
       "id": "msg2",
-      "chatId": "user1_user2",
-      "senderId": "user2",
-      "receiverId": "user1",
+      "contactId": "+221779876543",
       "content": "Salut ! Ça va bien et toi ?",
       "timestamp": 1704387660000,
       "status": "received"
     },
     {
       "id": "msg3",
-      "chatId": "user1_user2",
-      "senderId": "user1",
-      "receiverId": "user2",
+      "contactId": "+221771234567",
       "content": "Je travaille sur un projet JS.",
       "timestamp": 1704387700000,
       "status": "sent"
     },
     {
       "id": "msg4",
-      "chatId": "user1_user2",
-      "senderId": "user2",
-      "receiverId": "user1",
+      "contactId": "+221779876543",
       "content": "Tu utilises quel framework ?",
       "timestamp": 1704387750000,
       "status": "received"
     },
     {
       "id": "msg5",
-      "chatId": "group1",
-      "senderId": "b1e4",
+      "groupId": "group1",
+      "senderId": "+221774567890",
       "content": "Bienvenue dans le groupe !",
       "timestamp": 1704387800000,
       "status": "sent"
     },
     {
       "id": "msg6",
-      "chatId": "group1",
-      "senderId": "dded",
+      "groupId": "group1",
+      "senderId": "+221779876543",
       "content": "Merci ! Heureux d'être ici.",
       "timestamp": 1704387850000,
       "status": "received"
     },
     {
       "id": "msg7",
-      "chatId": "group2",
-      "senderId": "coura1",
+      "groupId": "group2",
+      "senderId": "+221778899001",
       "content": "Qui a les photos de la fête ?",
       "timestamp": 1704387900000,
       "status": "sent"
     },
     {
       "id": "msg8",
-      "chatId": "group2",
-      "senderId": "user1",
+      "groupId": "group2",
+      "senderId": "+221771234567",
       "content": "Je vais les envoyer maintenant.",
       "timestamp": 1704387950000,
       "status": "sent"
     },
     {
       "id": "msg9",
-      "chatId": "group2",
-      "senderId": "user2",
+      "groupId": "group2",
+      "senderId": "+221779876543",
       "content": "Super ! J'attends.",
       "timestamp": 1704388000000,
       "status": "received"
+    },
+    {
+      "id": "msg10",
+      "groupId": "group3",
+      "senderId": "+221773216549",
+      "content": "Préparons notre prochain voyage !",
+      "timestamp": 1704388050000,
+      "status": "sent"
+    }
+  ],
+  "archives": [
+    {
+      "id": "archive1",
+      "contactId": "+221774567890",
+      "archivedAt": 1704388100000
+    },
+    {
+      "id": "archive2",
+      "groupId": "group1",
+      "archivedAt": 1704388150000
     }
   ]
 }
